@@ -2,8 +2,8 @@ public class BabyRoom : Room , IchecIn
 {
     protected bool babycot;
 
-    public BabyRoom(bool babycot,int basePrice, int numOfBeds, int capacity) 
-    : base(basePrice,numOfBeds,capacity)
+    public BabyRoom(int numOfBeds, int capacity, bool babycot) 
+    : base(numOfBeds,capacity)
     {
         this.babycot = babycot;
     }

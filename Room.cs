@@ -4,7 +4,7 @@ public class Room : IClean
     protected int numOfBeds;
     protected int capacity;
 
-    public Room(int basePrice, int numOfBeds, int capacity)
+    public Room(int numOfBeds, int capacity)
     {
         this.numOfBeds = numOfBeds;
         this.capacity = capacity;
